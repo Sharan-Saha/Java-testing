@@ -10,7 +10,7 @@ public class Main {
         System.out.print("Principal: ");
         Scanner scanner = new Scanner(System.in);
         int principal = scanner.nextInt();
-        System.out.print("Annual Interest Rate: is 6 percent ");
+        System.out.print("Annual Interest Rate:");
         double monthlyInterestRate = (scanner.nextDouble() / 100 / 12);
         System.out.print("Payment Length, in years: ");
         int numOfPayments = scanner.nextInt() * 12;
