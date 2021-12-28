@@ -23,6 +23,7 @@ public class Main {
 
         Double mortgagePayment = (numerator / denominator) * principal;
         System.out.println(mortgagePayment); //testing
+        System.out.println("Hello");
 
     }
 }
